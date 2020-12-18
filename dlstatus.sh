@@ -10,9 +10,9 @@ do
 	if [ $? -eq 0 ]
 
 	then
-		echo "dl$i is online"
+		echo "dl$i : alive"
 	else
-		echo "dl$i is offline"
+		echo "dl$i : dead"
 	fi
 
 done
